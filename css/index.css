@@ -8,7 +8,6 @@ body {
 .container {
     height: auto;
     width: 76vw;
-    background: red;
     margin: auto auto;
 }
 
@@ -16,7 +15,33 @@ body {
     width: 100vw;
 }
 
-/* Text type specifers */
+/* Text area specifiers */
+
+.text-small{
+    width: 40%;
+}
+
+.text-full{
+    width: 100%;
+}
+
+.text-medium{
+    width: 60%;
+}
+
+/* Text alignment specifers */
+
+.text-align-center{
+    text-align: center;
+}
+
+.text-align-left{
+    text-align: left;
+}
+
+.text-align-right{
+    text-align: right;
+}
 
 
 /* Position specifers for all elements */
@@ -36,9 +61,23 @@ body {
 .vertical-center{
     position: relative;
     top: 50%;
-    transform: translate(-50%,0%);
+    transform: translate(0%,-50%);
 }
 
+/* Placement order specifers */
+
+.horizontal-line{
+    display: inline-block;
+    vertical-align: top;
+}
+
+.vertical-line{
+    display: block;
+}
+
+.line{
+    text-align: center;
+}
 
 /* Width Specifiers for all elements */
 
